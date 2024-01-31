@@ -1,4 +1,4 @@
-pyrogram==2.0.35
+pyrogram==2.0.106
 tgcrypto
 pymongo[srv]==3.12.3
 motor==2.5.1
@@ -13,5 +13,17 @@ hachoir
 Pillow
 humanize
 aiofiles
-dnspython 
+dnspython
 pynewtonmath
+openai
+
+#Online Stream & Download
+
+jinja2
+python-dotenv<=0.20.0
+apscheduler
+pyshorteners
+psutil
+pyromod
+colorama
+
