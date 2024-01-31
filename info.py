@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Lazymong')
 API_ID = int(environ.get('API_ID', '6381607'))
 API_HASH = environ.get('API_HASH',  '9799ad1623afe9bad664501f984b71fe')
-BOT_TOKEN = environ.get('BOT_TOKEN' '5186977432:AAGuhZBPtXe4rJA_qofPWlEQJa0DAWQAz10')
+BOT_TOKEN = environ.get('BOT_TOKEN', "5186977432:AAGuhZBPtXe4rJA_qofPWlEQJa0DAWQAz10")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
